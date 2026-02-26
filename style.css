@@ -1,0 +1,128 @@
+body.home{
+    text-align: center;
+    width: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+td{
+    text-align: left;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid black;
+}
+
+table{
+    margin: 0 auto;
+    th {
+        border: 1px solid black;
+    }
+    td {
+        border: 1px solid black;
+        padding-right: 50px;
+    }
+    border-spacing: 6px;
+}
+
+h1.home{
+    font-size: 40px;
+}
+
+h2.home{
+    font-size: 25px;
+}
+
+h3.home{
+    font-size: 30px;
+}
+
+p.home{
+    font-size: 20px;
+}
+
+.menu{
+    margin-left: 20px;
+    font-size: 20px;
+    td{
+        border: 0px;
+        padding-right: 7px;
+        text-align: left;
+    }
+    tr{
+        justify-content: flex-start;
+        display: flex;
+    }
+    border-spacing: 0px;
+    background-color: #afe6ff;
+    padding-right: 62%;
+}
+
+body.about{
+    text-align: justify;
+    width: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1.about{
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.aboutp{
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+video{
+    width: 300px;
+    padding-left: 40px;
+}
+
+body.contact{
+    text-align: justify;
+    width: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1.contact{
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+center.contact{
+    text-align: left;
+    font-size: 25px;
+}
+
+form.contact{
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+input{
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.cv{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+button.cv{
+    font-size: 20px;
+}
