@@ -46,25 +46,18 @@ p.home{
     font-size: 20px;
 }
 
-.menu{
-    margin-left: 20px;
-    font-size: 20px;
-    td{
-        border: 0px;
-        padding-right: 7px;
-        text-align: left;
-    }
-    tr{
-        justify-content: flex-start;
-        display: flex;
-    }
-    border-spacing: 0px;
-    background-color: #afe6ff;
+.menu {
+    background-color: #9ec3d5;
     padding: 10px;
+
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;      
     gap: 20px;
-    flex-wrap: wrap; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: blue;
 }
 
 body.about{
@@ -131,3 +124,4 @@ button.cv{
     font-size: 20px;
 
 }
+
