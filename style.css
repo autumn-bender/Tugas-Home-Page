@@ -60,7 +60,11 @@ p.home{
     }
     border-spacing: 0px;
     background-color: #afe6ff;
-    padding-right: 62%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap; 
 }
 
 body.about{
@@ -125,4 +129,5 @@ textarea{
 
 button.cv{
     font-size: 20px;
+
 }
